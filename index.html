@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About Me</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+		<ul>
+			<li><a href="#">Daily Activities</a></li>
+			<li><a href="#">Vacations</a></li>
+			<li><a href="#">Aspirations</a></li>
+    	</ul>
+		<h1>About Me</h1>
+		<img class="me" src="Me.png">
+	</header>
+	<br></br>
+	<p id="grow" onmouseover="hoverGrow()">Hi! My name is Chetna Dawda. I am a senior in NEST+m high school. I love to knit, travel, embroider, bake, and read. I am not necessarily good at all those activities, but they just end up being really soothing :) Plus, I am a true Lucifan! Anyway, I hope to gain coding skills and eventually make my career in the computer science field.</p>
+	<br></br>
+	<div class="row">
+		<div class="col-md">
+			<img src="https://i.pinimg.com/originals/ac/06/d8/ac06d8f6ec374eedf6311621e2958da4.jpg">
+		</div>
+		<div class="col-md">
+			<img src="https://data.whicdn.com/images/307149810/original.jpg">
+		</div>
+		<div class="col-md">
+			<img src="https://i.pinimg.com/originals/62/b0/f6/62b0f605b6c48cd0c9d5d3c3f0c585b6.jpg">
+		</div>
+		<div class="col-md">
+			<img src="https://sugargeekshow.com/wp-content/uploads/2020/01/pink-velvet-cake-featured.jpg">
+		</div>
+		<div class="col-md">
+			<img src="https://i.pinimg.com/236x/46/a1/db/46a1dbbff458b68559de10fc16319024.jpg">
+		</div>
+	</div>
+	<p>
+		<form>
+			What is your name? <input type="text" id="name">
+			<input type="button" value="Submit" onclick="hiName()">
+			<h4 id="display"></h4>
+			What is better than the Deckerstar couple? <input type="text" id="Deckerstar" onkeydown="lucifer()">
+		</form>
+	</p>
+	<script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+header {
+	background-image: url("https://i.pinimg.com/originals/64/19/7d/64197df832cbea170fb680a9c6f0da51.jpg");
+	text-align: center;
+	background-size: cover;
+    background-position: center;
+}
+ul {
+  padding: 10px;
+  background: rgba(225,248,240,0.5);
+}
+li {
+  text-align: center;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+img {
+	width: 200px;
+}
+a {
+	color: black;
+}
+h1 {
+	text-align: center;
+}
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
